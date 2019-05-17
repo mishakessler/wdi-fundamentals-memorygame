@@ -15,7 +15,7 @@ nav {
   padding: 20px 0;
 }
 
-nav a {
+a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Raleway";
@@ -24,6 +24,11 @@ nav a {
   letter-spacing: 1px;
   color: #ffffff;
   margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-bottom: 2px solid #ffffff;
 }
 
 main {
@@ -59,11 +64,38 @@ img {
   margin: 40px 8px 0 8px;
 }
 
-footer p {
-  font-family: "Raleway";
-  text-transform: none;
-  text-decoration: none;
+footer {
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 20px;
-  font-size: 12px;
-  letter-spacing: normal;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.copyright {
+  font-family: "Raleway";
+  float:left;
+}
+
+.message {
+  font-family: "Raleway";
+  float: right;
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
