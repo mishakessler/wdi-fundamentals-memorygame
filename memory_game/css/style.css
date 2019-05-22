@@ -99,3 +99,12 @@ footer {
   height: 0;
   font-size: 0;
 }
+
+.reset-button {
+  text-transform: uppercase;
+  margin-top: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #00A6B3;
+  border-radius: 10px;
+}
